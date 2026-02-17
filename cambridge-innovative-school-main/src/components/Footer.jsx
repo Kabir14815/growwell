@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo.webp';
+import logo from '../assets/growwell-logo.png';
 import { FaLocationDot, FaPhone, FaPhoneFlip, FaRegClock } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='px-[25px] lg:px[50px] py-10 bg-[#f2f7fd]'>
         <div className='flex justify-between items-start flex-wrap'>
             <div className='w-[100%] md:w-[30%] sm:w-[50%] mt-10'>
-                <Link to="/"><img className='w-[150px] mb-7' src={logo} alt='' /></Link>
+                <Link to="/"><img className='w-[150px] mb-7' src={logo} alt="Growell School" /></Link>
                 <p className='text-sm text-zinc-700'>we provide a caring and supportive place where every student can do well. Our mission is to make learning fun, spark curiosity, and help students reach their best potential.</p>
             </div>
             <div className='w-[100%] md:w-[30%] sm:w-[50%] mt-10'>

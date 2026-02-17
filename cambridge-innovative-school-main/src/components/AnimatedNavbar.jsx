@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import './Navbar.css';
-// import logo from '../assets/logo.jpg';
-import logo_full from '../assets/logo-full.webp';
+import logo from '../assets/growwell-logo.png';
 import { IoMenu } from "react-icons/io5";
 import { FaLocationDot, FaPhone, FaPhoneFlip, FaRegClock } from "react-icons/fa6";
 import gsap from 'gsap';
@@ -47,7 +46,7 @@ let menuClick = () =>
     <div className='ani'>
         
         <header className='main_navbars fixed top-0 left-0 z-50 bg-white'>
-                <Link to="" class="logo"><img src={logo_full} alt="" /></Link>
+                <Link to="/" class="logo"><img src={logo} alt="Growell School" /></Link>
 
                 <div className='flex flex-col'>
                     {/* <div className='navbar_content'>
