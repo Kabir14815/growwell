@@ -1,20 +1,9 @@
-/* @import url('http://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap'); */
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
-    
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+    font-family: "DM Sans", system-ui, sans-serif;
 }
 
 
@@ -50,7 +39,7 @@
 .container .contactInfo h2
 {
     color: #fff;
-    font-size:24px;
+    font-size: 18px;
     font-weight: 500;
 }
 .container .contactForm
@@ -70,7 +59,7 @@
 .container .contactForm h2
 {
     color: #0f3959;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -105,7 +94,7 @@
     width: 100%;
     resize: none;
     padding: 5px 0;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300;
     color: #333;
     border: none;
@@ -124,7 +113,7 @@
     left: 0;
     padding: 5px 0;
     pointer-events: none;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 300;
     transition: 0.3s;
 }

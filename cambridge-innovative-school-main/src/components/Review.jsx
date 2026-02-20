@@ -5,18 +5,28 @@ import quotes from '../assets/quotes.webp';
 const testimonials = [
   {
     img: quotes,
-    name: 'Person 1',
-    text: 'My child has improved so much since attending this school. Highly recommend!'
+    name: 'Parent of Nursery Student',
+    text: 'Growwell School has been the perfect fit for our little one. The play-based learning approach has made my child excited to go to school every day!'
   },
   {
     img: quotes,
-    name: 'Person 2',
-    text: `The teachers genuinely care about each student's success. We have seen amazing growth in our child's confidence and abilities.`
+    name: 'Parent of KG 1 Student',
+    text: 'The safety and nurturing environment at Growwell gives us peace of mind. Our child is blossoming with confidence and curiosity.'
   },
   {
     img: quotes,
-    name: 'Person 3',
-    text: 'The school provides a well-rounded education that includes arts, sports, and academics. Our child looks forward to going to school every day.'
+    name: 'Parent of Class 2 Student',
+    text: 'We love how Growwell focuses on balanced growth—academics and activities go hand in hand. Our child is developing in every way.'
+  },
+  {
+    img: quotes,
+    name: 'Parent',
+    text: 'The teachers are passionate and caring. My child has learned not just academics but also values like kindness and responsibility.'
+  },
+  {
+    img: quotes,
+    name: 'Parent',
+    text: 'Best primary school in Kharar! The campus is clean, safe, and the curriculum is well-structured. Highly recommend Growwell.'
   }
 ];
 
@@ -59,7 +69,7 @@ const Review = () => {
 
   return (
     <div id="testim" className="testim mt-20">
-      <h1 className='w-[90%] sm:w-[70%] md:w-[50%] m-auto font-semibold text-zinc-700 text-[1.5rem] sm:text-[4vw] md:text-[3vw] text-center'>Parents' Words Are The Key
+      <h1 className='w-[90%] sm:w-[70%] md:w-[50%] m-auto font-semibold text-zinc-700 text-[1.2rem] sm:text-[3vw] md:text-[2.4vw] text-center'>Parents' Words Are The Key
       To Happy Kids</h1>
       <div className="wrap">
         <span id="left-arrow" className="arrow left" onClick={() => handleArrowClick('left')}>

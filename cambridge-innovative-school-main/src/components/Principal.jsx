@@ -29,14 +29,14 @@ const Principal = () => {
 
           <div class="about-content w-[100%] md:w-[35%] mt-20 md:mt-0">
 
-            <p class="text-lg text-[#ff9900] font-medium">Our Principal</p>
-            <h2 className='text-2xl lg:text-3xl text-[#000066] font-semibold'>Laxmi Kant Bhatia</h2>
-            <p class="text-lg text-[#ff9900] font-medium mt-3 mb-1">Qualification : </p>
+            <p class="text-base text-[#ff9900] font-medium">Our Principal</p>
+            <h2 className='text-xl lg:text-2xl text-[#000066] font-semibold'>Laxmi Kant Bhatia</h2>
+            <p class="text-base text-[#ff9900] font-medium mt-3 mb-1">Qualification : </p>
 
             <p className='text-[#000066]'>M.A (Eng., Hist. Sociology and Psychology), M.Ed., M.Phil., Ph.D (pursuing)</p>
 
-            <p class="text-lg text-[#ff9900] font-medium mt-3 mb-1">Principal's Message : </p>
-            <p className='text-zinc-500'>Our team of passionate educators is committed to providing a supportive and engaging learning environment. We believe in the power of collaboration between school and home to guide our students toward success.</p>
+            <p class="text-base text-[#ff9900] font-medium mt-3 mb-1">Principal's Message : </p>
+            <p className='text-zinc-500 text-[1.05rem] leading-relaxed'>Our team of passionate educators is committed to providing a supportive and engaging learning environment. We believe in the power of collaboration between school and home to guide our students toward success.</p>
 
           </div>
 

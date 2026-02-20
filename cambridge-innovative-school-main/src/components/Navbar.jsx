@@ -14,24 +14,23 @@ const Navbar = () => {
 // let menu = document.querySelector('#menu-icon');
 
 useEffect(() => {
-    gsap.fromTo(".main_navbars",{
+    const el = document.querySelector(".main_navbar");
+    if (!el) return;
+    gsap.fromTo(el, {
         backgroundColor : "transparent",
         boxShadow : 'none'
-    },
-     {
+    }, {
         backgroundColor : "#fff",
         boxShadow : `5px 0px 5px gray`,
         duration : 2,
-        // delay : 3,
         scrollTrigger:{
-            scroller:"body",
-            trigger: ".main_navbar",
-            // markers : true,
+            scroller: "body",
+            trigger: el,
             start : "top -25%",
             end : "top -35%",
             scrub : 0
         } 
-    })
+    });
 }, [])
 
 
@@ -47,7 +46,7 @@ let menuClick = () =>
     <div>
         
         <header className='main_navbar'>
-                <Link to="/" class="logo"><img src={logo} alt="Growell School" /></Link>
+                <Link to="/" class="logo"><img src={logo} alt="Growwell School" /></Link>
 
                 <div className='flex flex-col'>
                     <div className='navbar_content'>
@@ -58,7 +57,7 @@ let menuClick = () =>
                                 </div>
                                 <div>
                                     <h3 className='font-medium'>Call</h3>
-                                    <p className='text-zinc-600 text-sm'>+91 8278751205</p>
+                                    <a href="tel:+918360444258" className='text-zinc-600 text-base hover:text-[#ff9900]'>+91 8360444258</a>
                                 </div>
                             </div>
                         </div>
@@ -69,7 +68,7 @@ let menuClick = () =>
                                 </div>
                                 <div>
                                     <h3 className='font-medium'>Work Time</h3>
-                                    <p className='text-zinc-600 text-sm'>Mon - Fri 9 AM - 3 PM</p>
+                                    <p className='text-zinc-600 text-base'>Mon - Fri 9 AM - 3 PM</p>
                                 </div>
                             </div>
                         </div>
@@ -80,18 +79,17 @@ let menuClick = () =>
                                 </div>
                                 <div>
                                     <h3 className='font-medium'>Address</h3>
-                                    <p className='text-zinc-600 text-sm'>Nangran, Roopnagar, Punjab</p>
+                                    <p className='text-zinc-600 text-base'>Near Bus Stand, Comrade Josh Road, Opp. Aar Kay Book Depot, Kharar, Mohali, India, Punjab region</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <hr className='nav_line' />
                     <ul class="navbarr">
-                        {/* <li><a href="#home" class="active">Home</a></li> */}
                         <li><Link to='/'>Home</Link></li>
-                        {/* <li><a href="#services">Facilities</a></li> */}
                         <li><Link to='/about'>About Us</Link></li>
-                        {/* <li><a href="#contact">Contact</a></li> */}
+                        <li><Link to='/admission'>Admission</Link></li>
+                        <li><Link to='/gallery'>Gallery</Link></li>
                         <li><Link to='/contact'>Contact</Link></li>
                     </ul>
                 </div>

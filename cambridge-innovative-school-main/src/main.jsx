@@ -6,6 +6,8 @@ import './index.css'
 import Layout from './Layout.jsx';
 import Contact from './Contact.jsx';
 import About from './About.jsx';
+import Gallery from './Gallery.jsx';
+import Admission from './Admission.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
       {
         path : '/about',
         element : <About />
+      },
+      {
+        path : '/gallery',
+        element : <Gallery />
+      },
+      {
+        path : '/admission',
+        element : <Admission />
       }
     ]
   }

@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: "DM Sans", system-ui, sans-serif !important;
     width: 100%;
     height: auto;
     font-size: 14px;
@@ -132,7 +132,7 @@ body {
 }
 
 .testim .cont div p {
-    font-size: 1.15em;
+    font-size: 1.2rem;
     color: #333;
     width: 70%;
     margin: auto;

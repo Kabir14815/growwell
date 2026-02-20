@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './ContactSection.css'
-import { FaLocationDot, FaPhone, FaPhoneFlip, FaRegClock } from "react-icons/fa6";
+import { FaLocationDot, FaEnvelope, FaPhoneFlip, FaRegClock } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Swal from 'sweetalert2'
@@ -65,7 +65,16 @@ const ContactSection = () => {
                                 </div>
                                 <div>
                                     <h3 className='font-medium'>Call</h3>
-                                    <p className='text-zinc-600 text-sm'>+91 827875125</p>
+                                    <a href="tel:+918360444258" className='text-zinc-600 text-base hover:text-white'>+91 8360444258</a>
+                                </div>
+                            </div>
+                            <div className='flex justify-start items-center gap-3'>
+                                <div>
+                                    <FaEnvelope className='text-[#fff] text-xl' />
+                                </div>
+                                <div>
+                                    <h3 className='font-medium'>Email</h3>
+                                    <a href="mailto:info@growwellschool.in" className='text-zinc-600 text-base hover:text-white'>info@growwellschool.in</a>
                                 </div>
                             </div>
                             <div className='flex justify-start items-center gap-3'>
@@ -74,7 +83,7 @@ const ContactSection = () => {
                                 </div>
                                 <div>
                                     <h3 className='font-medium'>Work Time</h3>
-                                    <p className='text-zinc-600 text-sm'>Mon - Fri 9 AM - 3 PM</p>
+                                    <p className='text-zinc-600 text-base'>Mon - Fri 9 AM - 3 PM</p>
                                 </div>
                             </div>
                             <div className='flex justify-start items-center gap-3'>
@@ -83,14 +92,14 @@ const ContactSection = () => {
                                 </div>
                                 <div>
                                     <h3 className='font-medium'>Address</h3>
-                                    <p className='text-zinc-600 text-sm'>Nangran, Roopnagar, Punjab</p>
+                                    <p className='text-zinc-600 text-base'>Near Bus Stand, Comrade Josh Road, Opp. Aar Kay Book Depot, Kharar, Mohali, India, Punjab region</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="contactForm border border-[#ff9900]">
-                        <h2>Send a Message</h2>
+                        <h2>For Any Inquiry</h2>
                         <div class="formBox">
                         <div class="inputBox w50">
                             <input type="text" name="name" value={contactData.name} onChange={changeHandler} required />

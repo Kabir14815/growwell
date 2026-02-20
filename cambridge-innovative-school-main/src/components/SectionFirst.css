@@ -18,8 +18,8 @@
     --primary_dark:#002347;
     --primary_lite:#000066;
     --secondary:#3ab068;
-    --default_font:'Mukta', sans-serif;
-    --title_font:'Kanit', sans-serif;
+    --default_font:'DM Sans', system-ui, sans-serif;
+    --title_font:'DM Serif Display', Georgia, serif;
 }
 
 .title, .sub_title{
@@ -54,15 +54,15 @@
 }
 
 .big{
-    font-size:3.5em;
+    font-size:2.5em;
 }
 
 .medium{
-    font-size:2em;
+    font-size:1.5em;
 }
 
 .small{
-    font-size:1.1em;
+    font-size:1em;
 }
 
 .btn{
@@ -182,15 +182,15 @@
     }
     
     .big{
-        font-size:1.8em;
+        font-size:1.5em;
     }
     
     .medium{
-        font-size:1.6em;
+        font-size:1.3em;
     }
     
     .small{
-        font-size:1.1em;
+        font-size:1em;
     }
     
     .btn{
@@ -330,11 +330,18 @@
 }
 
 .division_4 .cards figure{
-    height:60vh;
+    height:auto;
     margin:2%;
-    border-radius:140px;
+    border-radius:24px;
     overflow:hidden;
     position:relative;
+    background:#f0fdf4;
+    box-shadow:0 4px 20px rgba(0,0,0,0.08);
+    display:flex;
+    flex-direction:column;
+    min-width:220px;
+    max-width:260px;
+    flex:1;
 }
 
 .division_4 .cards figure:nth-child(2), .division_4 .cards figure:nth-child(3){
@@ -344,7 +351,65 @@
 .division_4 figure img{
     object-fit:cover;
     width:100%;
-    height:100%;
+    height:180px;
+}
+
+.program-cards{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:1rem;
+}
+
+.program-card-img{
+    overflow:hidden;
+    border-radius:24px 24px 0 0;
+}
+
+.program-card-content{
+    padding:1rem 1.25rem;
+}
+
+.program-title{
+    font-size:1.1rem;
+    font-weight:700;
+    color:var(--primary_lite);
+    margin:0 0 0.25rem 0;
+}
+
+.program-age{
+    font-size:0.95rem;
+    color:#64748b;
+    margin:0 0 0.75rem 0;
+    font-weight:500;
+}
+
+.program-points{
+    margin:0;
+    padding-left:1.25rem;
+    font-size:0.95rem;
+    color:#64748b;
+    line-height:1.6;
+}
+
+.program-points li{
+    margin-bottom:0.4rem;
+}
+
+.program-details-btn{
+    margin-top:1rem;
+    padding:0.5rem 1.25rem;
+    background:#ff9900;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-weight:500;
+    font-size:0.9rem;
+    cursor:pointer;
+    transition:background 0.2s;
+}
+
+.program-details-btn:hover{
+    background:#f59c17;
 }
 
 .division_4 .cards section{
@@ -362,7 +427,12 @@
     }
     
     .division_4 .cards figure{
-        height:200px;
+        min-width:100%;
+        max-width:100%;
+    }
+    
+    .division_4 .cards figure:nth-child(2), .division_4 .cards figure:nth-child(3){
+        top:0;
     }
     
     .division_4 .cards:after{

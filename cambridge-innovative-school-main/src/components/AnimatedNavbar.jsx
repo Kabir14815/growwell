@@ -46,7 +46,7 @@ let menuClick = () =>
     <div className='ani'>
         
         <header className='main_navbars fixed top-0 left-0 z-50 bg-white'>
-                <Link to="/" class="logo"><img src={logo} alt="Growell School" /></Link>
+                <Link to="/" class="logo"><img src={logo} alt="Growwell School" /></Link>
 
                 <div className='flex flex-col'>
                     {/* <div className='navbar_content'>
@@ -57,7 +57,7 @@ let menuClick = () =>
                                 </div>
                                 <div>
                                     <h3 className='font-medium'>Call</h3>
-                                    <p className='text-zinc-600 text-sm'>+91 827875125</p>
+                                    <p className='text-zinc-600 text-sm'>+91 8360444258</p>
                                 </div>
                             </div>
                         </div>
@@ -79,18 +79,17 @@ let menuClick = () =>
                                 </div>
                                 <div>
                                     <h3 className='font-medium'>Address</h3>
-                                    <p className='text-zinc-600 text-sm'>Nangran, Roopnagar, Punjab</p>
+                                    <p className='text-zinc-600 text-sm'>Near Bus Stand, Comrade Josh Road, Opp. Aar Kay Book Depot, Kharar, Mohali, India, Punjab region</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <hr className='nav_line' /> */}
                     <ul class="navbarr">
-                        {/* <li><a href="#home" class="active">Home</a></li> */}
                         <li><Link to='/'>Home</Link></li>
-                        {/* <li><a href="#services">Facilities</a></li> */}
                         <li><Link to='/about'>About Us</Link></li>
-                        {/* <li><a href="#contact">Contact</a></li> */}
+                        <li><Link to='/admission'>Admission</Link></li>
+                        <li><Link to='/gallery'>Gallery</Link></li>
                         <li><Link to='/contact'>Contact</Link></li>
                     </ul>
                 </div>

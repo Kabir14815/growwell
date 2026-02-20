@@ -5,7 +5,7 @@
 }
 
 #hero_heading{
-    font-size: 4.5vw;
+    font-size: 3.2vw;
     /* text-align: left; */
 }
 
@@ -23,12 +23,10 @@
 }
 
 .cambridge{
-    font-size: 8vw;
-    position: absolute;
-    top : -50%;
-    left : -3%;
+    font-size: 5.5vw;
+    display: block;
+    margin-top: 1rem;
     color : #ff9900;
-    z-index: -2;
     font-weight: 700;
     opacity: 0.2;
     border-bottom: 1px solid gray;
@@ -62,14 +60,11 @@
 
     
     #hero_heading{
-        font-size: 6vw;
+        font-size: 4.5vw;
     }
 
     .cambridge{
-        font-size: 12vw;
-        position: absolute;
-        top : -50%;
-        left : 10%;
+        font-size: 8vw;
     }
 }
 
@@ -80,14 +75,11 @@
 
     
     #hero_heading{
-        font-size: 7vw;
+        font-size: 5vw;
     }
 
     .cambridge{
-        font-size: 12vw;
-        position: absolute;
-        top : 0%;
-        left : 10%;
+        font-size: 8vw;
     }
 }
 
@@ -149,7 +141,7 @@
 .boxes h4 {
     color: #003399;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 0px;
     text-align: center;
 }
@@ -157,6 +149,11 @@
     height : 4px;
     background-color: #009933;
     width : 25%;
+}
+
+.text-cont{
+    font-size: 1.15rem;
+    line-height: 1.6;
 }
 .feature-line1{
     height : 4px;
