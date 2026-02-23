@@ -1,6 +1,6 @@
 import React from 'react'
 import './Principal.css';
-import about_banner from '../assets/principal_banner.webp';
+import principalImage from '../assets/principal.png';
 import principal_one from '../assets/about-shape-3.webp';
 import principal_name from '../assets/principal_name.webp';
 import principal_contact from '../assets/principal_contact.webp';
@@ -15,7 +15,7 @@ const Principal = () => {
           <figure class="about-banner w-[100%] md:w-[60%] flex justify-center items-center relative">
 
             <div class="rounded-lg overflow-hidden w-[65%]">
-              <img src={about_banner} loading="lazy" alt="about banner"
+              <img src={principalImage} loading="lazy" alt="Principal - Growwell School Kharar"
                 class="img-cover" />
             </div>
             
