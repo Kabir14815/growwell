@@ -15,7 +15,7 @@ const Principal = () => {
           <figure class="about-banner w-[100%] md:w-[60%] flex justify-center items-center relative">
 
             <div class="rounded-lg overflow-hidden w-[65%]">
-              <img src={principalImage} loading="lazy" alt="Principal - Growwell School Kharar"
+              <img src={principalImage} loading="lazy" alt="Amrit Kaur - Principal, Growwell School Kharar"
                 class="img-cover" />
             </div>
             
@@ -30,13 +30,13 @@ const Principal = () => {
           <div class="about-content w-[100%] md:w-[35%] mt-20 md:mt-0">
 
             <p class="text-base text-[#ff9900] font-medium">Our Principal</p>
-            <h2 className='text-xl lg:text-2xl text-[#000066] font-semibold'>Laxmi Kant Bhatia</h2>
+            <h2 className='text-xl lg:text-2xl text-[#000066] font-semibold'>Amrit Kaur</h2>
             <p class="text-base text-[#ff9900] font-medium mt-3 mb-1">Qualification : </p>
 
-            <p className='text-[#000066]'>M.A (Eng., Hist. Sociology and Psychology), M.Ed., M.Phil., Ph.D (pursuing)</p>
+            <p className='text-[#000066]'>B.Com, B.Ed and MBA in (Finance)</p>
 
             <p class="text-base text-[#ff9900] font-medium mt-3 mb-1">Principal's Message : </p>
-            <p className='text-zinc-500 text-[1.05rem] leading-relaxed'>Our team of passionate educators is committed to providing a supportive and engaging learning environment. We believe in the power of collaboration between school and home to guide our students toward success.</p>
+            <p className='text-zinc-500 text-[1.05rem] leading-relaxed'>Dear Parents, at Growwell School we are committed to providing a nurturing environment where young minds can flourish. Our philosophy, symbolized by the lotus, is one of rising above challenges, blooming in adversity and striving for excellence. We focus on holistic development, blending traditional values with modern innovation. Our approach encourages critical thinking, creativity, academic excellence, curiosity-driven learning, emotional intelligence, empathy, physical well-being, and extra-curricular exploration. Together let's empower them to thrive and make a positive impact.</p>
 
           </div>
 
