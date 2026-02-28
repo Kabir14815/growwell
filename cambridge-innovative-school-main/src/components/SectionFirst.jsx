@@ -1,14 +1,20 @@
 import React from 'react'
 import './SectionFirst.css'
+import preNurseryImg from '../assets/pre_nursery_classroom.png'
+import nurseryImg from '../assets/nursery_classroom.png'
+import kg1Img from '../assets/kg1_classroom.png'
+import kg2Img from '../assets/kg2_classroom.png'
+import class1Img from '../assets/class1_classroom.png'
+import class2to8Img from '../assets/class2to8_classroom.png'
 
-// Neutral images (no students): books, nature, stationery - using reliable URLs
+// Classroom images for each program
 const neutralImages = [
-  'https://picsum.photos/id/26/400/300', // Pre-Nursery: open book
-  'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop',
-  'https://picsum.photos/id/24/400/300',  // K.G 1: nature/forest
-  'https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=400&h=300&fit=crop',
-  'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=300&fit=crop',
-  'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=400&h=300&fit=crop',
+  preNurseryImg,
+  nurseryImg,
+  kg1Img,
+  kg2Img,
+  class1Img,
+  class2to8Img,
 ];
 
 const FALLBACK_IMAGE = 'https://placehold.co/400x300/e0f2fe/3b82f6?text=Learning';
