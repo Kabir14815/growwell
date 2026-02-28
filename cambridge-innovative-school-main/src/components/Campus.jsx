@@ -1,7 +1,7 @@
 import React from 'react'
 import './Principal.css';
 import principal_one from '../assets/about-shape-3.webp';
-import campus from '../assets/campus.webp';
+import campus from '../assets/staff_photo.jpg';
 import education from '../assets/education.webp';
 import reading from '../assets/reading.webp';
 import forest from '../assets/forest.webp';

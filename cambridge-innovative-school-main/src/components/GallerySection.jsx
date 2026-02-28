@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import campusImg from '../assets/campus.webp'
 
 // Gallery images from growwellschool.in
 const galleryImages = [
-  { src: 'https://growwellschool.in/wp-content/uploads/2024/12/DSC00007-scaled.jpg', alt: 'Growwell School campus', category: 'Campus' },
+  { src: campusImg, alt: 'Growwell School campus', category: 'Campus' },
   { src: 'https://growwellschool.in/wp-content/uploads/2024/12/DSC00215-scaled.jpg', alt: 'Growwell School students', category: 'Learning' },
   { src: 'https://growwellschool.in/wp-content/uploads/2024/12/DSC00217-scaled.jpg', alt: 'Growwell School classroom', category: 'Classroom' },
   { src: 'https://growwellschool.in/wp-content/uploads/2024/08/IMG-20240818-WA0007.jpg', alt: 'Growwell School activities', category: 'Activities' },
-  { src: 'https://growwellschool.in/wp-content/uploads/2024/12/DSC00255-scaled.jpg', alt: 'Growwell School joyful moments', category: 'Events' },
+  { src: campusImg, alt: 'Growwell School joyful moments', category: 'Events' },
   { src: 'https://growwellschool.in/wp-content/uploads/2024/05/growwell.jpg', alt: 'Growwell School', category: 'Campus' }
 ];
 
