@@ -24,7 +24,7 @@ const Principal = () => {
                 <img src={principal_contact} className="w-[80%] max-w-[200px]" alt="Contact" />
               </div>
               <p class="text-sm text-zinc-600 font-medium mb-1">Contact :</p>
-              <a href="tel:+919816164155" className="text-lg font-semibold text-[#000066] hover:underline">+91 9816164155</a>
+              <a href="tel:+918196051999" className="text-lg font-semibold text-[#000066] hover:underline">+91 8196051999</a>
             </div>
 
             <div>

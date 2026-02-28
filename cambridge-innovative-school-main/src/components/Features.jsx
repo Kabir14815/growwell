@@ -12,7 +12,7 @@ const Features = () => {
     {
       icon : seesaw, 
       heading : "Primary School",
-      content : "Pre-Nursery to 8th Class Under CBSE Pattern. Nurturing Creativity & Curiosity, Blending Education with Innovation."
+      content : "Recognized Pre-Nursery to 8th Class(Recognized) U. Nurturing Creativity & Curiosity, Blending Education with Innovation."
     },
     {
       icon : apple_and_books,
